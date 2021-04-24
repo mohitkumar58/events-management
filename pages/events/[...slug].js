@@ -34,7 +34,7 @@ function FilteredEvents() {
                     <p>Invalid filter, please adjust your values!</p>
                 </ErrorAlert>
                 <div className={classes.center}>
-                    <Button href="/events">Show All Events</Button>
+                    <Button link="/events">Show All Events</Button>
                 </div>
             </>
         )
@@ -52,7 +52,7 @@ function FilteredEvents() {
                     <p>No events found for the chosen filter!</p>
                 </ErrorAlert>
                 <div className={classes.center}>
-                    <Button href="/events">Show All Events</Button>
+                    <Button link="/events">Show All Events</Button>
                 </div>
             </>
         )
